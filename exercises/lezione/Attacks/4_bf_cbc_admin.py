@@ -14,7 +14,7 @@ PORT = 12346
 server = remote(ADDRESS, PORT)
 
 #generate a username
-username = "aldo" #str --> .encode()
+username = "aldo11" #str --> .encode()
 
 #send the username
 server.send(username.encode())
